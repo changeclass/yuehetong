@@ -1,0 +1,156 @@
+/*
+ * @description: 新闻
+ * @author: 小康
+ * @url: https://xiaokang.me
+ * @Date: 2021-01-09 16:08:39
+ * @LastEditTime: 2021-01-09 16:37:03
+ * @LastEditors: 小康
+ */
+.m-h2 {
+  font-size: 1.6em;
+  text-align: center;
+  i {
+    display: none;
+  }
+}
+.news-area {
+  margin: 3em 0 6em;
+}
+.news-area-l,
+.news-area-r {
+  background: #fff;
+  padding: 0;
+}
+.news-area-l .col-sm-6,
+.news-area-r .col-sm-6 {
+  padding: 0;
+}
+.news-area-r {
+  border-left: 1px solid #ccc;
+  .col-sm-6 {
+    &.news-yb-last {
+      padding-top: 3px;
+      border-left: 1px dashed #e8e8e8;
+      height: 200px;
+    }
+  }
+}
+#news-carousel {
+  height: 206px;
+  .item {
+    a {
+      text-align: center;
+      display: block;
+    }
+  }
+  img {
+    height: 206px;
+    display: inline;
+  }
+}
+.eve-ul {
+  height: 150px;
+  padding: 0;
+  margin: 0;
+  li {
+    list-style: none;
+    padding: 0 1em;
+    margin: 0;
+    border-right: 3px solid #fff;
+    border-bottom: 1px solid #e8e8e8;
+    a {
+      display: table-cell;
+      height: 50px;
+      overflow: hidden;
+      vertical-align: middle;
+      color: #333;
+    }
+    &:hover {
+      border-right: 3px solid #97cb26;
+      background: #fafafa;
+    }
+  }
+}
+.art-pic {
+  margin-top: 1.5em;
+}
+.news-yb-o {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+}
+.yb-index {
+  height: 145px;
+}
+.news-yb {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  background: #fff url('../img/yht-logo-200X260.jpg') no-repeat 50% 50%;
+  background-size: cover;
+  transition: all 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+  &:hover {
+    transform: scale(1.08);
+  }
+}
+.news-yb-a {
+  display: block;
+  border: 1px solid #e8e8e8;
+  &:hover {
+    border: 1px solid #97cb26;
+  }
+}
+.new-yb-des {
+  color: #333;
+  padding: 5px;
+  height: 60px;
+  background: #fff;
+}
+.new-r-des {
+  padding: 20px;
+  padding-top: 1px;
+  background: #fff;
+}
+.new-r-title {
+  h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    word-break: break-all;
+    a {
+      display: block;
+    }
+  }
+}
+.new-r-sum {
+  color: #999;
+  height: 3em;
+  overflow: hidden;
+}
+.new-r-m {
+  padding: 10px 20px;
+  background: #e2e2e2;
+  border: 1px solid #e4e4e4;
+  color: #9c9c9c;
+  margin-bottom: 20px;
+}
+.news-rt {
+  border-bottom: 1px solid #e2e2e2;
+  text-align: center;
+  font-size: 1.2em;
+  color: #111;
+  font-weight: 400;
+  margin-top: 2em;
+  padding-bottom: 10px;
+}
+.article-r-b2 {
+  margin: 0;
+  padding: 0;
+  li {
+    list-style: none;
+    margin: 1em;
+    a {
+      display: block;
+      word-break: break-all;
+    }
+  }
+}

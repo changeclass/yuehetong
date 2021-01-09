@@ -1,0 +1,45 @@
+/*
+ * @description: 个性服务
+ * @author: 小康
+ * @url: https://xiaokang.me
+ * @Date: 2021-01-09 14:00:22
+ * @LastEditTime: 2021-01-09 16:37:13
+ * @LastEditors: 小康
+ */
+.thumbnail {
+  padding: 0;
+  .caption {
+    padding: 0;
+  }
+}
+.server-icon(@color) {
+  color: @color;
+  i {
+    font-size: 2.5em;
+    font-weight: 100;
+    color: #fff;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    padding-left: 2px;
+    text-align: center;
+    border: 1px solid;
+    margin-bottom: 0.3em;
+    border-radius: 50%;
+  }
+}
+.personlize-serve {
+  text-align: center;
+  .server-top1 {
+    background: #8ea8f8;
+    .server-icon(white);
+  }
+  .server-top2 {
+    background: #97cb26;
+    .server-icon(white);
+  }
+  .server-top3 {
+    background: #fad716;
+    .server-icon(white);
+  }
+}

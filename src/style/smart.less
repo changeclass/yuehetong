@@ -1,0 +1,108 @@
+/*
+ * @description:  smart(智能合同)
+ * @author: 小康
+ * @url: https://xiaokang.me
+ * @Date: 2021-01-09 13:34:42
+ * @LastEditTime: 2021-01-09 16:36:32
+ * @LastEditors: 小康
+ */
+
+.smart-contract {
+  text-align: center;
+}
+
+.thumbnail {
+  min-height: 250px;
+}
+// smart-contract-title的公共样式
+.smart-contract-common(@color,@url) {
+  height: 42px;
+  background: @color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(@url);
+  background-repeat: no-repeat;
+  span {
+    color: #fff;
+    line-height: 30px;
+  }
+  img {
+    margin-right: 10px;
+  }
+}
+.smart-contract-title1 {
+  .smart-contract-common(#e8b875,'../img/guquan_mini.png');
+  background-position: 70px;
+}
+.smart-contract-title2 {
+  .smart-contract-common(#baa1e2,'../img/yue-sprit004.png');
+  background-position: 70px -260px;
+}
+.smart-contract-title3 {
+  .smart-contract-common(#6581c3,'../img/yue-sprit004.png');
+  background-position: 70px -172px;
+}
+.smart-contract-title4 {
+  .smart-contract-common(#fad716,'../img/yue-sprit004.png');
+  background-position: 70px -130px;
+}
+.smart-contract-title5 {
+  .smart-contract-common(#8ea8f8,'../img/yue-sprit004.png');
+  background-position: 70px -210px;
+  span {
+    color: #fff;
+    line-height: 30px;
+  }
+}
+.smart-contract-title6 {
+  .smart-contract-common(#fcbfdb,'../img/yue-sprit004.png');
+  background-position: 70px -87px;
+}
+.smart-contract-title7 {
+  .smart-contract-common(#f97b39,'../img/yue-sprit004.png');
+  background-position: 70px -314px;
+}
+.smart-contract-title8 {
+  .smart-contract-common(#97cb26,'../img/yue-sprit004.png');
+  background-position: 70px -366px;
+}
+.smart-contract2 {
+  text-align: center;
+  display: none;
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+// smart-contract2-title 的公共样式
+.smart-contract2-common(@color) {
+  height: 80px;
+  background: @color;
+  text-align: center;
+  padding: 10px;
+}
+.smart-contract2-title1 {
+  .smart-contract2-common(#e8b875);
+}
+.smart-contract2-title2 {
+  .smart-contract2-common(#baa1e2);
+}
+.smart-contract2-title3 {
+  .smart-contract2-common(#6581c3);
+}
+.smart-contract2-title4 {
+  .smart-contract2-common(#fad716);
+}
+.smart-contract2-title5 {
+  .smart-contract2-common(#8ea8f8);
+}
+.smart-contract2-title6 {
+  .smart-contract2-common(#fcbfdb);
+}
+.smart-contract2-title7 {
+  .smart-contract2-common(#f97b39);
+}
+.smart-contract2-title8 {
+  .smart-contract2-common(#97cb26);
+}
